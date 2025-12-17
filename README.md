@@ -1,5 +1,6 @@
 # Dell Precision T7910 BIOS Settings and Instructions
 INFO: This guide assumes that proxomox has alread been installed.
+
 ## Initial BIOS settings
 1. Boot machine
 2. When Dell logo appears press F12.
@@ -13,10 +14,10 @@ INFO: This guide assumes that proxomox has alread been installed.
     - SAS RAID Controller - Enabled checked
     - Memory Map IO above 4G - Memory Map IO above 4G checked
 
-Exit
----
+click Apply and then Exit
+
 ## Check for drives after reboot
-1. After pressing Exit from bios the machine will reboot
+1. After clicking Apply and then Exit from bios the machine will reboot
 2. When Dell logo appears press F12
 3. Navigate to BIOS and press Enter
 
@@ -35,7 +36,7 @@ Navigate to Settings -> System Configuration -> Drives
 1. Boot machine
 2. When Dell logo appears press F12
 3. Navigate to BIOS and press Enter
----
+
 Navigate to Settings -> System Configuration -> Drives. If everything above was done correctly you should now see the SATA drives listed here, and should be free to provision in ZFS pools in Proxmox
 
 
