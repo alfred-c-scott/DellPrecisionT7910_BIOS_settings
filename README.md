@@ -1,5 +1,5 @@
 # Dell Precision T7910 BIOS Settings and Instructions
-INFO: This guide assumes that proxomox has alread been installed.
+INFO: This guide assumes that Proxmox has alread been installed. guide will likely work for other setups as well.
 
 ## Initial BIOS settings
 1. Boot machine
