@@ -17,7 +17,7 @@ INFO: This guide assumes that proxomox has alread been installed.
 click Apply and then Exit
 
 ## Check for drives after reboot
-1. After clicking Apply and then Exit from bios the machine will reboot
+1. After clicking Apply and then Exit from BIOS the machine will reboot
 2. When Dell logo appears press F12
 3. Navigate to BIOS and press Enter
 
