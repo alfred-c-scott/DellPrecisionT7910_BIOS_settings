@@ -14,7 +14,7 @@ INFO: This guide assumes that Proxmox has alread been installed. guide will like
     - SAS RAID Controller - Enabled checked
     - Memory Map IO above 4G - Memory Map IO above 4G checked
 
-click Apply and then Exit
+**click Apply and then Exit**
 
 ## Check for drives after reboot
 1. After clicking Apply and then Exit from BIOS the machine will reboot
@@ -36,7 +36,8 @@ Navigate to Settings -> System Configuration -> Drives
 1. Boot machine
 2. When Dell logo appears press F12
 3. Navigate to BIOS and press Enter
-
-Navigate to Settings -> System Configuration -> Drives. If everything above was done correctly you should now see the SATA drives listed here, and should be free to provision in ZFS pools in Proxmox
+---
+**Navigate to Settings -> System Configuration -> Drives.
+If everything above was done correctly you should now see the SATA drives listed here, and should be free to provision in ZFS pools in Proxmox**
 
 
